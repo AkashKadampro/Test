@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="iconsContainer">
+        <!-- Icons will be dynamically inserted here -->
+    </div>
+
+    <div class="admin-panel" id="adminPanel">
+        <button id="toggleForm">+</button>
+        <form id="iconForm">
+            <input type="url" id="iconUrl" placeholder="Icon URL" required>
+            <input type="text" id="iconAlt" placeholder="Icon Alt Text" required>
+            <input type="url" id="iconLink" placeholder="Link URL" required>
+            <button type="submit">Add Icon</button>
+        </form>
+    </div>
+
+    <div class="login-panel" id="loginPanel">
+        <h2>Admin Login</h2>
+        <form id="loginForm">
+            <input type="password" id="adminPassword" placeholder="Enter admin password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <div class="power-icon" id="powerIcon">
+        <img src="power-icon.png" alt="Power Icon">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
